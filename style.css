@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Kanit:wght@100&family=Nova+Square&family=Oswald:wght@300&family=Roboto+Mono:wght@100;300&family=Rubik+Bubbles&display=swap');
+*{
+    font-family: Kanit;
+}
+.top{
+    background-color: black;
+    height: 30px;
+    width: 100%;
+    color: floralwhite;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.top a{
+    color: white;
+}
+.top a:hover{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+.left{
+    float: left;
+    display: flex;
+    width: 70%;
+    height: 60px;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    top: 50px;
+    margin-top: 5px;
+
+}
+.left ul{
+    display: flex;
+}
+.left ul a{
+    display: flex;
+    margin: 20px;
+    font-weight: bolder;
+    font-size: x-large;
+    text-decoration: none;
+    position: sticky;
+    top: 0px;    
+    color: white;
+}
+.left ul a:hover{
+    color: burlywood;
+    text-decoration: underline;
+} 
+.right{
+    float: right;
+    display: flex;
+    width: 75%;
+    height: 60px;
+    align-items: center;
+    justify-content: right;
+    position: absolute;
+    top: 50px;
+    margin-top: 5px;
+    left:370px;
+}
+.right ul{
+    display: flex;
+}
+.right ul a{
+    display: flex;
+    margin: 20px;
+    text-decoration: none;
+    position: sticky;
+    top: 0px;    
+}
+.right ul a:hover{
+    color: burlywood;
+    text-decoration: underline;
+} 
+.head{
+    width: 100%;
+    height: 930px;
+    display: flex;
+    flex-direction: column;
+}
+.head::before{
+    content: "";
+    background-image: url('https://www.etq-amsterdam.com/cdn/shop/files/image00001_Dekstop_1200x.png?v=1701167209');
+    width: 1400px;
+    height: 800px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.notif{
+    left: 1150px;
+    position: absolute;
+    top: 300px;
+    height: 300px;
+    color: black;
+}
+.notif a{
+    text-decoration: none;
+    color: black;
+}
+.shop:hover{
+    text-decoration: underline;
+}
+.row1{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    float: left;
+    margin-top: 10px;
+}
+.col1{
+    height: 200px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.col1 p{
+    top: 1100px;
+    left: 260px;
+    position: absolute;
+    
+}
+.col2{
+    height: 200px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.col2 p{
+    top: 1100px;
+    left: 760px;
+    position: absolute;
+    
+}
+.col3{
+    height: 200px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.col3 p{
+    top: 1100px;
+    left: 1260px;
+    position: absolute;
+    
+}
+img{
+    height: 300px;
+    width: 220px;
+}
+.col1 a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.col2 a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.col3 a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.row2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    float: left;
+    margin-top: 320px;
+    padding: 10px;
+}
+.col4{
+    height: 500px;
+    width: 35%;
+}
+.col4 img{
+    width: 90%;
+    height: 500px;
+}
+.col4 img:hover{
+    content: url("https://www.etq-amsterdam.com/cdn/shop/files/ETQ-Flatlay6Okt-20645_v1crob.png?v=1698064686");
+}
+.col5{
+    height: 500px;
+    width: 35%;
+}
+.col5 img{
+    width: 90%;
+    height: 500px;
+}
+.col5 img:hover{
+    content: url("https://www.etq-amsterdam.com/cdn/shop/files/ETQ-WardrobeEssentials-7Aug-2496crob_v1.jpg?v=1692612703");
+
+}
+.col6{
+    height: 500px;
+    width: 35%;
+}
+.col6 img{
+    width: 90%;
+    height: 500px;
+}
+.col6 img:hover{
+    content: url("https://www.etq-amsterdam.com/cdn/shop/files/ETQ-Flatlay6Okt-20726_v1crob.png?v=1698233400");
+}
+.col4 a,.col5 a,.col6 a{
+    text-decoration: none;
+    color: black;
+}
+.fav{
+    position: absolute;
+    top: 1350px;
+}
+.row3{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    float: left;
+    margin: 10px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.col7{
+    height: 1000px;
+    width: 700px;
+    padding: 20px;
+}
+.col7 img{
+    height: 500px;
+    width: 700px;
+}
+.col8{
+    height: 1000px;
+    width: 700px;
+    padding: 20px;
+}
+.col8 img{
+    height: 500px;
+    width: 700px;
+}
+.col7 a,.col8 a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+.row4{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    float: left;
+    margin: 20px;
+}
+.col9{
+    width: 500px;
+    margin-right: 10px;
+}
+.col10{
+    width: 200px;
+    margin-right: 10px;
+}
+.col11{
+    width: 250px;
+    margin-right: 10px;
+}
+.col12{
+    width: 250px;
+    margin-right: 10px;
+}
+.col13{
+    width: 250px;
+    margin-right: 10px;
+}
+.last{
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    
+    
+    
+}
+
+
